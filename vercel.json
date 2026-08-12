@@ -6,7 +6,7 @@
       "use": "@vercel/static-build"
     }
   ],
-  "outputDirectory": "co-pfl/co-pfl/dist",
+  "outputDirectory": "dist",
   "routes": [
     {
       "src": "/(.*)",
