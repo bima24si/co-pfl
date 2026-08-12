@@ -1,0 +1,11 @@
+{
+  "name": "co-pfl-root",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "install-inner": "npm --prefix ./co-pfl install",
+    "dev": "npm --prefix ./co-pfl run dev",
+    "build": "npm --prefix ./co-pfl run build",
+    "preview": "npm --prefix ./co-pfl run preview"
+  }
+}
