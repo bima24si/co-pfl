@@ -2,8 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "co-pfl/co-pfl/package.json",
-      "use": "@vercel/static-build"
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "co-pfl/co-pfl/dist"
+      }
     }
   ],
   "routes": [
