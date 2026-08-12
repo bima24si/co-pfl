@@ -3,12 +3,10 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "co-pfl/co-pfl/dist"
-      }
+      "use": "@vercel/static-build"
     }
   ],
+  "outputDirectory": "co-pfl/co-pfl/dist",
   "routes": [
     {
       "src": "/(.*)",
