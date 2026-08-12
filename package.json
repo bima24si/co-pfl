@@ -6,9 +6,9 @@
     "./co-pfl"
   ],
   "scripts": {
-    "install-inner": "npm --prefix ./co-pfl install",
+    "install-inner": "npm --prefix ./co-pfl install --include=dev",
     "dev": "npm --prefix ./co-pfl run dev",
-    "build": "npm --prefix ./co-pfl install && npm --prefix ./co-pfl run build",
+    "build": "npm --prefix ./co-pfl install --include=dev && npm --prefix ./co-pfl run build",
     "preview": "npm --prefix ./co-pfl run preview"
   }
 }
